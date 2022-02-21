@@ -13,7 +13,7 @@ On the X axis (theta), the peak of the distribution represents the most likely v
 What a binomial distribution helps us do is take into account the fact that when we have limited data, our result is less meaningful. So, looking at the blue line, we can see that after only 25 flips, we not very confident in any probability value. However, given more data, we become more confident! Clearly, this is a very strange coin that we have because our data is telling us that the probability of getting a head is centered around .8.
 
 Just like for the likelihood term, in model inference, you can consider a multitude of different kinds of priors. 
-![Bayes Rule](bayesimg4.png)
+![Bayes Rule](images/bayesimg4.png)
 For our case, lets say you have literally never seen a biased coin in your life, so you have a pretty extreme prior. You aren't necessarily ruling out the possibility of biased coin completely, but it would take a lot to change your mind. We can represent this as a Gaussian distribution centered at .5. 
 
 To apply Bayes' rule we put together the prior and likelihood and we get our posteriors (the orange, green, and red lines).
