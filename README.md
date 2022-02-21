@@ -53,6 +53,12 @@ NOTE: I used numpy, matplotlib, and scipy to support my calcualtions and create 
 Spotify_dancability.py
 finalproject5002v2.py
 ```
+The data set for this project is:
+```
+spotify_genre_final1.xlsx
+```
+Please be aware that this is just an example of a general user's spotify data. The resulting visualizations will rightly change depending on the specifics of a user's library, the priors, etc. 
+
 To apply the calculations and re-create the visualizations, simply run these commands:
 
 ```
