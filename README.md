@@ -20,7 +20,7 @@ To apply Bayes' rule we put together the prior and likelihood and we get our pos
 ![Bayes Rule](images/bayesimg5.png)
 Our posterior tells us the most probable value of theta given our data, which is the most probable value of our model! We can see how with only 25 flips, even though our coin was heavily biased at .8, our distribution shifts only slightly to the right. As more flips happen, we continue to update our belief about the coin and become more convinced that it is in fact biased.
 
-NOTE: I used numpy, matplotlib, and scipy to support my calcualtions and create the visualizations you see above. Please reference the files below for details. 
+NOTE: I used numpy, matplotlib, and scipy to support my calculations and create the visualizations you see above. Please reference the files below for details. 
 ```
 coin_binomial_dist.py
 coin_bayes.py
@@ -32,7 +32,7 @@ python coin_bayes.py
 python coin_binomial_dist.py
 ```
 # Bayesian model inference applied to Spotify data
-We can also apply these same techniques to user-generated Spotify data-sets. To help think about why someone might want to do this, I created a "real-life senario" to help: 
+We can also apply these same techniques to user-generated Spotify data-sets. To help think about why someone might want to do this, I created a "real-life scenario" to help: 
 Let’s say you are having a themed dance party, and you want pick a specific music genre. You have some prior information about how likely your friends are to dance to a particular genre (based on your perception of their music tastes). You also have access to your Spotify data, which gives each of your songs a danceability rank based on “how suitable a track is for dancing based on a combination of musical elements. A value of 0.0 is least danceable and 1.0 is most danceable” (this is determined by Spotify). You want to update your prior belief about your friends probability to dance based on the new info that Spotify can provide.
 ![Bayes Rule](images/bayes6.png)
 
@@ -48,7 +48,7 @@ Again, just like in the coin flip example, we calculate the posterior with the s
 Looking at the Latin genre: We had a significant prior my friends would dance to Latin music, but after considering the danceability of my Latin songs, the most likely value of theta is lower than our prior (this is Bayesian model inference in action!). 
 On the right, we can see the posterior of each genre, showing us that we should pick hip hop as our theme, and we should definitely not pick rock (especially because it is very narrow, indicating our certainty). 
 
-NOTE: I used numpy, matplotlib, and scipy to support my calcualtions and create the visualizations you see above. Please reference the files below for details. 
+NOTE: I used numpy, matplotlib, and scipy to support my calculations and create the visualizations you see above. Please reference the files below for details. 
 ```
 Spotify_dancability.py
 finalproject5002v2.py
