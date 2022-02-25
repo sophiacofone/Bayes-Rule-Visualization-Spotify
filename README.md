@@ -1,6 +1,7 @@
 # Bayesian model inference applied
 This project contains an exploration of Bayesian model inference applied to a Spotify data set. The aim of this project is to determine the probability of a model given some data, which each have their own probability distributions.
 
+Note: this repo is a piece of a larger overal project done in collaboration with Noah Beliveau, Jake Hayward, Bridget Mohler. 
 # Background on Bayesian model inference
 ![Bayes Rule](images/bayesimg1.png)
 
@@ -66,3 +67,14 @@ python Spotify_dancability.py
 python finalproject5002v2.py
 ```
 The command line will prompt you to enter a genre (rock, edm, pop, hiphop, latin, r&b, rap). Type in the genre you want to analyze and press enter to see the visualizations.
+
+# References used
+https://towardsdatascience.com/bayes-rule-applied-75965e4482ff
+https://www.youtube.com/watch?v=OByl4RJxnKA
+https://www.bu.edu/sph/files/2014/05/bayesian-networks-final.pdf https://www.cs.utexas.edu/~bornholt/papers/bayes-approx14.pdf https://towardsdatascience.com/introduction-to-bayesian-belief-networks-c012e3f59f1b https://seeing-theory.brown.edu/bayesian-inference/index.html
+https://en.wikipedia.org/wiki/Thomas_Bayes
+https://en.wikipedia.org/wiki/Binomial_distribution https://stackoverflow.com/questions/19125722/adding-a-legend-to-pyplot-in-matplotlib-in-the-simplest-manner-possible https://www.statisticshowto.com/probability-and-statistics/binomial-theorem/binomial-distribution-formula/ https://en.wikipedia.org/wiki/Normal_distribution
+https://en.wikipedia.org/wiki/Gaussian_function https://docs.scipy.org/doc/scipy/reference/special.html
+https://matplotlib.org/ https://www.kaggle.com/naoh1092/spotify-genre-audio-features?select=spotify_genre_final.xlsx
+Zhu, Xing-Jiang, and Eric Thrane. “Toward the Unambiguous Identification of Supermassive Binary Black Holes through Bayesian Inference.” The Astrophysical Journal, vol. 900, no. 2, The American Astronomical Society, 2020, p. 117, doi:10.3847/1538-4357/abac5a.
+“A Bayesian Network Model for Diagnosis of Liver Disorders” – Agnieszka Onisko, M.S., Marek J. Druzdzel, Ph.D., and Hanna Wasyluk, M.D.,Ph.D.- September 1999.
