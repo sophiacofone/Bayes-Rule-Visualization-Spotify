@@ -1,7 +1,7 @@
 # Bayesian model inference applied
 This project contains an exploration of Bayesian model inference applied to a Spotify data set. The aim of this project is to determine the probability of a model given some data, which each have their own probability distributions.
 
-Note: this repo is a piece of a larger overal project done in collaboration with Noah Beliveau, Jake Hayward, Bridget Mohler. 
+Note: this repo is a piece of a larger overal project done in collaboration with Noah Beliveau, Jake Hayward, and Bridget Mohler. 
 # Background on Bayesian model inference
 ![Bayes Rule](images/bayesimg1.png)
 
